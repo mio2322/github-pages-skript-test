@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <title>GitHub-Pages-Test</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: ui-rounded, "SF Pro Rounded", system-ui, sans-serif;
+        background: #f4f0e8;
+        color: #153b2e;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        min-height: 100svh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+        background:
+          radial-gradient(circle at 20% 20%, #f7ca5c 0 8%, transparent 28%),
+          radial-gradient(circle at 85% 80%, #9bcbb5 0 10%, transparent 30%),
+          #f4f0e8;
+      }
+
+      main {
+        width: min(680px, 100%);
+        padding: clamp(32px, 7vw, 72px);
+        border: 1px solid #ffffffb8;
+        border-radius: 36px;
+        background: #ffffffb3;
+        box-shadow: 0 24px 70px #153b2e1c;
+        backdrop-filter: blur(20px);
+      }
+
+      p { font-size: 18px; line-height: 1.55; }
+      .label { font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+      h1 { margin: 18px 0; font-size: clamp(42px, 9vw, 76px); line-height: .95; letter-spacing: -.05em; }
+      .status { display: inline-flex; align-items: center; gap: 10px; margin-top: 18px; font-weight: 700; }
+      .status::before { content: ""; width: 12px; height: 12px; border-radius: 50%; background: #2ba66b; box-shadow: 0 0 0 7px #2ba66b1c; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="label">Neutrale Testseite</div>
+      <h1>Es funktioniert.</h1>
+      <p>Diese Seite enthält keine Kunden-, Firmen- oder Projektdaten. Sie dient ausschließlich dazu, den sicheren Veröffentlichungsablauf für GitHub Pages zu testen.</p>
+      <div class="status">GitHub Pages ist erreichbar</div>
+    </main>
+  </body>
+</html>
